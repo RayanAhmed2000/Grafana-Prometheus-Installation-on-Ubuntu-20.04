@@ -86,7 +86,7 @@ systemctl enable prometheus
 ufw allow in "Nginx Full"
 ufw allow 9090/tcp
 ```
-- To know more (click here)[https://serverspace.io/support/help/install-prometheus-ubuntu-20-04/]
+- To know more [click here](https://serverspace.io/support/help/install-prometheus-ubuntu-20-04/)
 
 
 
