@@ -1,3 +1,16 @@
+# Grafana - 2 ways 
+1 - Either by using Docker i.e. running grafana container
+2 - By using Pre build binaries and installing grafana on Local machine
+
+# Using Docker
+- Install docker on your machine
+- pull grafana image and run conatainer
+```
+docker run -d -p 3000:3000 --name=grafana -v grafana-storage:/var/lib/grafana grafana/grafana
+```
+- above command will create a conatiner, map its port 3000 to 3000 of local machien and create a volume named grafana-storage so that dashboards are preserved when container restarts
+
+
 # Grafana-Installation-on-Ubuntu-20.04
 - Run the following commands
 ```
