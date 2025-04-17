@@ -67,3 +67,9 @@ startTLS_policy = OpportunisticStartTLS
 - New nested policy
 - Add Label that we created and used in our alert 5th point
 
+
+# How to link Alert rule and Panel
+- Multiple Alert rules can be created on one panel but it is not necessary that it is linked to that panel.
+- Linking just makes the alert rule visible on the panel by displaying heart icon and dotted lines when it is triggered and back to normal
+- To link go to alert 4th section of Annotation and Link to Panel
+
