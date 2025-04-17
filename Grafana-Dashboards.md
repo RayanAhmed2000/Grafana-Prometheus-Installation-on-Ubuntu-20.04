@@ -73,3 +73,9 @@ startTLS_policy = OpportunisticStartTLS
 - Linking just makes the alert rule visible on the panel by displaying heart icon and dotted lines when it is triggered and back to normal
 - To link go to alert 4th section of Annotation and Link to Panel
 
+
+# How to check alert history
+- Go to alert rule
+- Expand Alert
+- Show state history
+
